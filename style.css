@@ -10,6 +10,15 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+
+    color: dimgray;
+}
+
 .highlight{
 
     color:orange
@@ -35,6 +44,7 @@ h1{
 
 section{
     height:500px ;
+    padding-bottom: 150px;
 }
 
 .link-button{
@@ -45,4 +55,11 @@ section{
     color:whitesmoke;
     font-weight: 700;
     background-image:linear-gradient(#91185a , #a56ba7);
+}
+
+.dream{
+    background-image:url(img/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    float:right;
 }
