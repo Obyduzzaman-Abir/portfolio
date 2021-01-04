@@ -29,6 +29,7 @@ p{
     float: left;
     margin-left:5%;
     padding:2%;
+    overflow: hidden;
    
 }
 
@@ -61,5 +62,38 @@ section{
     background-image:url(img/dream-bg.png);
     background-repeat:no-repeat;
     background-position: right;
-    float:right;
+    
+}
+
+.single-ex{
+
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon , tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+
+    border-left: 7px solid;
+    border-image:linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
 }
